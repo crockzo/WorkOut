@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="ABOUT ME"
+        android:textSize="32dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/dancingscriptregular"
+        android:textAllCaps="true"
+        android:textColor="#1310DF"
+
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/developer_cp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:text="NAME : MOHIT GUPTA "
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" AGE : 19 "
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" OCCUPATION : ANDROID DEVELOPER"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        android:text="EMAIL  : GUPTAMRMOHIT08@GMAIL.COM "
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUALIFICATION"
+                android:textColor="#FCF30404"
+                android:textStyle="italic|bold"
+                android:textSize="20sp"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10th : 8.8 CGPA"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th : 84.8 %"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B-TECH : pursuing"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO FUTURE PLAN"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+
+        </LinearLayout>
+
+<TextView
+    android:layout_width="1dp"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+    android:layout_marginTop="32dp"
+    />
+        <LinearLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LANGUAGE"
+                android:textColor="#FCF30404"
+                android:textStyle="italic|bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C++"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAVA"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PYTHON"
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANDROID "
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQL "
+                android:textAllCaps="true"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/about_to_home"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/about_shape"
+        />
+</LinearLayout>

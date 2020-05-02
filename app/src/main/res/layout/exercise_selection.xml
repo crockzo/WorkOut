@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:background="#FFFFFF"
+   >
+
+    <TextView
+        android:id="@+id/randMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/randomMessage"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_marginTop="75dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/random"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:text="@string/random"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_below="@id/randMsg"
+
+        />
+
+    <TextView
+        android:id="@+id/customMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customMessage"
+        android:textSize="24sp"
+        android:layout_marginTop="52dp"
+        android:textColor="#000000"
+        android:layout_below="@id/random"
+        android:textStyle="italic"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/custom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/customize"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:textSize="32sp"
+        android:layout_below="@id/customMsg"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom"
+        android:src="@drawable/startingimage"
+        />
+
+</RelativeLayout>
+
+</LinearLayout>

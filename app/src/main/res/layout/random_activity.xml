@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <TextView
+        android:id="@+id/exName"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Barbell Deadlif"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="#E516ED"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        />
+    <ImageView
+        android:id="@+id/exerciseImage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:src="@drawable/one"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+<!--
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        />-->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:cpb_background_progressbar_color="#b6bbd8"
+        android:layout_gravity="center_horizontal"
+        app:cpb_background_progressbar_width="5dp"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color="#3f51b5"
+        app:cpb_progressbar_width="10dp"
+        app:cpb_progress_max="100"
+        app:cpb_round_border="false" />
+
+    <TextView
+        android:id="@+id/countDown"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="0"
+        android:textStyle="bold"
+        android:textSize="64sp"
+        android:gravity="center"
+        android:textColor="#CF1E1E"
+        android:layout_gravity="center_horizontal"
+        />
+        <!--android:layout_marginTop="75dp"-->
+</RelativeLayout>
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

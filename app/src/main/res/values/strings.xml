@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="random">Random</string>
+    <string name="customize">customize</string>
+    <string name="about">ABOUT APP</string>
+    <string name="detail">ABOUT DEVELOPER</string>
+
+
+    <string name="Barbell_Bench_Press">Barbell Bench Press</string>
+    <string name="Flat_Bench_Dumbbell">Flat Bench Dumbbell Press</string>
+    <string name="Low_Incline_Barbell_Bench">Low-Incline Barbell Bench Press</string>
+    <string name="One_Arm_High_Cable_Curl">One-Arm High-Cable Curl</string>
+    <string name="Standing_Cable_Curl">Standing Cable Curl.</string>
+    <string name="Smith_Machine_Drag">Smith-Machine Drag Curl.</string>
+    <string name="Barbell_Overhead_Shoulder">Barbell Overhead Shoulder Press</string>
+    <string name="Reverse_Pec_Deck_Fly">Reverse Pec Deck Fly</string>
+    <string name="Push_Press">Push Press</string>
+    <string name="Barbell_Deadlift">Barbell Deadlift</string>
+
+    <string name="custom_selection">CUSTOMIZE EXERCISE</string>
+
+    <string name="randomMessage">* SELECT RANDOM IF YOU WISH TO GET RANDOM EXERCISES </string>
+    <string name="customMessage">* SELECT CUSTOM IF YOU WISH TO CHOOSE EXERCISES </string>
+
+
+    <string name="aboutAppMessage">THIS APP IS ABOUT HELPING YOU TO MAINTAINING YOU HEALTH AND MAKE SURE YOU UTILIZE YOUR TIME EFFECTIVELY. LCO HEALTH CARE IS HERE TO DELIVER YOU BEST INTERFACE FOR YOUR WORKOUT SESSION</string>
+
+</resources>
